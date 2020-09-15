@@ -8,6 +8,7 @@
     <meta name="description" content="SPA">
     <meta name="author" content="Camilla, Maria, Sofia & Anne">
     <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/categories.css">
     <link
         href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800;1,900&display=swap"
         rel="stylesheet">
@@ -19,33 +20,37 @@
 <body onhashchange="pageChange()">
 
     <!-- Tabbar navigation -->
+    <!-- Icon attribute https://prod.liveshare.vsengsaas.visualstudio.com/join?9201DFB823B7E0196E96AC733609D709D8EA -->
+    <!-- Icon attribute Icons made by <a href="https://www.flaticon.com/authors/gregor-cresnar" title="Gregor Cresnar">Gregor Cresnar</a> from <a href="https://www.flaticon.com/" title="Flaticon"> www.flaticon.com</a> -->
+
     <nav class="tabbar">
-        <a href="#favoritter"></a>
+        <a href="#favoritter"><img src="img/black-heart.png" alt=""></a>
 
-        <a href="#home"></a>
+        <a href="#home"><img src="img/black-house.png" alt=""></a>
 
-        <a href="#map"></a>
-    </nav> <!-- Pages -->
+        <a href="#map"><img src="img/black-map.png" alt=""></a>
+    </nav>
 
-    <!-- Favorite page -->
+
+    <!-- Pages -->
+
+    <!-- FAVERITE PAGE-->
     <section id="favoritter" class="page">
         <header class="topbar">
             <h2>Mine favoritter</h2>
-
-
 
         </header>
 
     </section>
 
-    <!-- Home page   sofia+maria -->
+    <!-- HOME PAGE -->
     <section id="home" class="page">
 
         <h1>Hvor befinder du dig?</h1>
         <input id="by-soeg" type="search" placeholder="Søg efter sted.." onkeyup="search(this.value)">
 
         <button class="button-button">København</button>
-        <button class="button-button"> <a href="#category">Århus</a></button>
+        <button class="button-button"> <a href="#kategorier">Århus</a></button>
         <button class="button-button">Aalborg</button> <br>
         <button class="button-button">Odense</button>
         <button class="button-button">Esbjerg</button>
@@ -53,20 +58,64 @@
 
     </section>
 
-    <!-- CITY/CATEGORY PAGE -->
-    <section id="category" class="page">
 
 
 
+    <!--CATEGORY PAGE-->
 
-    </section>
+    <section id="kategorier" class="page">
 
-    <!-- Map page -->
-    <section id="map" class="page">
         <header class="topbar">
-            <h2>Kort</h2>
+
+            <a href="#home"><img src="img/arrow.png" alt=""></a>
+
+            <p>Hvad søger du?</p>
+
+            <input id="kate-soeg" type="search" placeholder="Skriv søgeord her..." onkeyup="search(this.value)">
+
         </header>
+
+        <main>
+
+            <h1>KATEGORIER AARHUS</h1>
+            <section id="categories" class="catogories-grid-container">
+            </section>
+        </main>
+
     </section>
+
+
+
+
+    <!--RESTAURANT PAGE-->
+
+    <section id="restauranter" class="page">
+        <!-- <div class="topbar">
+            <a href="#category"><img src="img/arrow.png" alt=""></a>
+            <h1>ITALIENSK Aarhus</h1> 
+        </div>-->
+    </section>
+
+
+    <!-- CAFE 1 PAGE -->
+    <section id="cafe-x" class="page">
+        <!-- <div class="topbar">
+            <a href="#kokkentyper"><img src="img/arrow.png" alt=""></a>
+            <p>Cafe X</p>
+        </div>-->
+    </section>
+
+
+    <!-- MAP PAGE -->
+
+    <section id="map" class="page">
+        <!-- <header class="topbar">
+            <h2>Kort</h2>
+        </header> -->
+    </section>
+
+
+
 
 
     <!-- SPA functionality  -->
@@ -74,6 +123,9 @@
 
     <!-- Main JS file -->
     <script src="js/main.js"></script>
+
+    <!-- Categories JS file -->
+    <script src="js/categories.js"></script>
 
 </body>
 

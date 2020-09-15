@@ -1,0 +1,71 @@
+/* Top bar */
+
+.topbar {
+    width: 100%;
+    background-color: #EAEAE0;
+    padding-bottom: 5%;
+}
+
+/* Styling af navigationspil */
+.topbar img {
+    width: 40px;
+    float: left;
+    margin: 20px 0 20px 20px;
+}
+
+.topbar p {
+    text-align: left;
+}
+
+#kate-soeg {
+    -webkit-appearance: none;
+    margin: 1em auto;
+    width: 100%;
+    max-width: 350px;
+    padding: 15px 15px;
+    box-sizing: border-box;
+    display: block;
+    border: 0;
+    background: #fff;
+    border-radius: 10px;
+}
+
+#categories {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    padding: 10px;
+}
+
+#categories>article {
+    text-align: center;
+    padding: 10px;
+}
+
+#categories>article img {
+    max-width: 300px;
+    width: 100%;
+    margin-bottom: 1em;
+}
+
+/* 
+.grid-item {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    font-size: 20px;
+    text-align: center;
+}
+
+#kategori img {
+    width: 100%;
+    border-radius: 17px;
+}
+
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+
+} */
