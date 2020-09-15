@@ -1,1 +1,80 @@
-<p>WE DON'T EAT</p>
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>We Don't Eat</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="SPA">
+    <meta name="author" content="Camilla, Maria, Sofia & Anne">
+    <link rel="stylesheet" href="css/main.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://use.typekit.net/axl3gvm.css">
+
+    <!-- <link rel="shortcut icon" type="image/png" href="img/favicon.png" /> -->
+</head>
+
+<body onhashchange="pageChange()">
+
+    <!-- Tabbar navigation -->
+    <nav class="tabbar">
+        <a href="#favoritter"></a>
+
+        <a href="#home"></a>
+
+        <a href="#map"></a>
+    </nav> <!-- Pages -->
+
+    <!-- Favorite page -->
+    <section id="favoritter" class="page">
+        <header class="topbar">
+            <h2>Mine favoritter</h2>
+
+
+
+        </header>
+
+    </section>
+
+    <!-- Home page   sofia+maria -->
+    <section id="home" class="page">
+
+        <h1>Hvor befinder du dig?</h1>
+        <input id="by-soeg" type="search" placeholder="Søg efter sted.." onkeyup="search(this.value)">
+
+        <button class="button-button">København</button>
+        <button class="button-button"> <a href="#category">Århus</a></button>
+        <button class="button-button">Aalborg</button> <br>
+        <button class="button-button">Odense</button>
+        <button class="button-button">Esbjerg</button>
+        <button class="button-button">Randers</button>
+
+    </section>
+
+    <!-- CITY/CATEGORY PAGE -->
+    <section id="category" class="page">
+
+
+
+
+    </section>
+
+    <!-- Map page -->
+    <section id="map" class="page">
+        <header class="topbar">
+            <h2>Kort</h2>
+        </header>
+    </section>
+
+
+    <!-- SPA functionality  -->
+    <script src="js/spa.js"></script>
+
+    <!-- Main JS file -->
+    <script src="js/main.js"></script>
+
+</body>
+
+</html>
