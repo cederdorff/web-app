@@ -13,5 +13,21 @@
     {
         "name": "Sushi",
         "img": "img/risotto.jpg"
+    },
+    {
+        "name": "Mexi",
+        "img": "img/risotto.jpg"
+    },
+    {
+        "name": "Dansk",
+        "img": "img/risotto.jpg"
+    },
+    {
+        "name": "Dessert",
+        "img": "img/risotto.jpg"
+    },
+    {
+        "name": "Burger",
+        "img": "img/risotto.jpg"
     }
 ]
