@@ -17,56 +17,38 @@
     text-align: left;
 }
 
-#kate-soeg {
-    -webkit-appearance: none;
-    margin: 1em auto;
-    width: 100%;
-    max-width: 350px;
-    padding: 15px 15px;
-    box-sizing: border-box;
-    display: block;
-    border: 0;
-    background: #fff;
-    border-radius: 10px;
-}
-
-#categories {
+#restaurants {
     display: grid;
     grid-template-columns: 50% 50%;
     padding: 10px;
     grid-row-gap: 2em;
 }
 
-#categories>article {
+#restaurants>article {
     text-align: center;
     padding: 10px;
 }
 
-#categories>article img {
+#restaurants>article img {
     max-width: 300px;
     width: 100%;
     margin-bottom: 1em;
     border-radius: 10px;
 }
 
-#categories>article a {
-    text-decoration: none;
-}
-
-#kategorier {
+#restauranter {
     margin-bottom: 30%;
 }
 
-#kategorier p {
+#restauranter p {
     margin-left: 6%;
 }
 
-#kategorier h1 {
+#restauranter h1 {
     text-align: left;
     margin-left: 6%;
 }
 
-#kategorier h3 {
+#restauranter h3 {
     margin-top: -90px;
-    color: white;
 }

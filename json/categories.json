@@ -1,33 +1,41 @@
 [{
         "name": "Sandwich",
-        "img": "img/risotto.jpg"
+        "img": "img/anettessandwich.png"
     },
     {
         "name": "Pizza",
-        "img": "img/risotto.jpg"
+        "img": "img/grappa.png"
     },
     {
         "name": "Pasta",
-        "img": "img/risotto.jpg"
+        "img": "img/piccolina.png"
     },
     {
         "name": "Sushi",
-        "img": "img/risotto.jpg"
+        "img": "img/karma.png"
     },
     {
-        "name": "Mexi",
-        "img": "img/risotto.jpg"
+        "name": "Mexicansk",
+        "img": "img/vaca.png"
     },
     {
-        "name": "Dansk",
-        "img": "img/risotto.jpg"
+        "name": "Thai",
+        "img": "img/kowloon.png"
     },
     {
         "name": "Dessert",
-        "img": "img/risotto.jpg"
+        "img": "img/socialfoodies.png"
     },
     {
         "name": "Burger",
-        "img": "img/risotto.jpg"
+        "img": "img/burgershack.png"
+    },
+    {
+        "name": "Vegetar",
+        "img": "img/plantfood.png"
+    },
+    {
+        "name": "Morgenmad",
+        "img": "img/cafefrida.png"
     }
 ]
