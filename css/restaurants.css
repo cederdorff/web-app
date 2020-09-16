@@ -1,27 +1,28 @@
 /* Top bar */
 
-.topbar {
+.res-topbar {
     width: 100%;
     background-color: #EAEAE0;
-    padding-bottom: 5%;
+    padding-bottom: 40%;
 }
 
 /* Styling af navigationspil */
-.topbar img {
+.res-topbar img {
     width: 40px;
     float: left;
     margin: 20px 0px 0px 20px;
 }
 
-.topbar p {
+.res-topbar p {
     text-align: left;
 }
 
 #restaurants {
     display: grid;
-    grid-template-columns: 50% 50%;
+    grid-template-columns: 100%;
     padding: 10px;
-    grid-row-gap: 2em;
+    margin-bottom: 10px;
+    margin-top: -130px;
 }
 
 #restaurants>article {
@@ -33,11 +34,12 @@
     max-width: 300px;
     width: 100%;
     margin-bottom: 1em;
-    border-radius: 10px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
 }
 
 #restauranter {
-    margin-bottom: 30%;
+    margin-bottom: 20%;
 }
 
 #restauranter p {
@@ -50,5 +52,11 @@
 }
 
 #restauranter h3 {
-    margin-top: -90px;
+    background-color: white;
+    padding: 20px;
+    margin: 0px 17px 0px 18px;
+    margin-top: -22px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    text-align: left;
 }

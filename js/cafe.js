@@ -21,7 +21,15 @@ function appendCafes(cafes) {
         htmlTemplate += /*html*/ `
         <section class="page" id="${cafe.id}">
             <h2>${cafe.name}</h2>
-    
+            <p>${cafe.hours}</p>
+    <p>${cafe.phone}</p>
+    <p>${cafe.adress}</p>
+
+    <h3>Vores glutenfri valgmuligheder</h3>
+    <p>${cafe.option1}</p>
+<p>${cafe.option2}</p>
+<p>${cafe.option3}</p>
+<h3>Se resten af vores menu<a><p>her</p></a></h3>
     
     </section>
         `;
@@ -29,7 +37,6 @@ function appendCafes(cafes) {
     }
     console.log(htmlTemplate);
 
-    document.querySelector("body").innerHTML = htmlTemplate;
-    hideAllPages();
-    navigateTo("home");
+    document.querySelector("body").innerHTML += htmlTemplate;
+    pageChange();
 }
