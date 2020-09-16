@@ -149,3 +149,13 @@ h1 {
   opacity: 0;
   animation: fadeIn 1s ease-in forwards;
 }
+
+
+/* Map */
+
+#map {
+  height: 800px;
+  /* The height is 400 pixels */
+  width: 100%;
+  /* The width is the width of the web page */
+}
