@@ -19,7 +19,7 @@ function appendCategories(categories) {
     let htmlTemplate = "";
     for (let category of categories) {
         htmlTemplate += /*html*/ `
-        <article>
+        <article onclick = "filteredbykeyword('${category.name}')">
         <a href = "#restauranter"> <img src = "${category.img}"> 
         <h3>${category.name}</h3></a>
         </article>
@@ -28,4 +28,16 @@ function appendCategories(categories) {
     }
 
     document.querySelector("#categories").innerHTML = htmlTemplate;
+}
+function filteredbykeyword(keyword) {
+    let restaurants = [];
+    for (let restaurant of _cafes) {
+        console.log(restaurant)
+        if (restaurant.categories.includes(keyword.toLowerCase())) {
+            restaurants.push(restaurant);
+        }
+    }
+    console.log(restaurants);
+    appendRestaurants(restaurants);
+    navigateTo("restauranter");
 }

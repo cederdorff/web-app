@@ -1,18 +1,18 @@
 "use strict";
 
 // Global variable
-let _restaurant = [];
+let _restaurants = [];
 
 // Fetches JSON data from the JSON file categories.json
-fetch('json/cafe.json')
-    .then(function (response) {
-        return response.json();
-    })
-    .then(function (jsonData) {
-        console.log(jsonData);
-        _restaurant = jsonData;
-        appendRestaurants(jsonData)
-    });
+// fetch('json/cafe.json')
+//     .then(function (response) {
+//         return response.json();
+//     })
+//     .then(function (jsonData) {
+//         console.log(jsonData);
+//         _restaurants = jsonData;
+//         appendRestaurants(jsonData)
+//     });
 
 // Appends JSON data to the DOM
 function appendRestaurants(restaurants) {
@@ -24,7 +24,7 @@ function appendRestaurants(restaurants) {
         <a href="#${restaurant.id}"> <img src="${restaurant.img}">
         <div>
         <h3>${restaurant.name}</h3></a>
-<img class src="img/heart.png">
+<img class="hjerte" src="img/heart.png">
     </div>
         </article>
         `;

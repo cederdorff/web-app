@@ -38,6 +38,11 @@
     border-top-right-radius: 20px;
 }
 
+#restaurants> article .hjerte{
+    width: 30px;
+    border-radius: 0px;
+}
+
 #restauranter {
     margin-bottom: 20%;
 }

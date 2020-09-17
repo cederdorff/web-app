@@ -1,4 +1,70 @@
+/* ---------- root variables ---------- */
+:root {
+  --green: rgb(38, 76, 89);
+  --tabbar: #FFF;
+  --light-green: rgb(172, 198, 201);
+  --light-grey: #f1f1f4;
+  --text-color-light: #FF785B;
+  --text-color-dark: #454545;
+  --border: #A0A0A0;
+  --sig-color: #EAEAEA0;
+}
+
+
+
 .bg-holder {
     width: 100%;
     height: 100vh;
+}
+
+/* .parent { 
+display: grid; 
+grid-template-columns: repeat(3, 1fr); 
+grid-template-rows: repeat(2, 1fr); 
+grid-column-gap: 0px;
+grid-row-gap: 0px; 
+} */
+
+/* -------- COLLAPSIBLES STYLING ------ */
+
+.collapsible {
+    background-color: white;
+    color: #353535;
+    cursor: pointer;
+    padding: 16px 16px 16px 16px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-family: 'miller-banner', serif;
+    font-weight: 600;
+}
+
+.active,
+.collapsible:hover {
+    color: var(--text-color-light);
+}
+
+.collapsible:after {
+    content: '\002B';
+    color: black;
+    font-weight: bold;
+    float: right;
+    margin-left: 5px;
+}
+
+.active:after {
+    content: "\2212";
+}
+
+.content {
+    padding: 0 18px;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+    display: block;
+    line-height: 25px;
+    font-size: 13px;
 }
