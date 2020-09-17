@@ -20,7 +20,9 @@ function appendCafes(cafes) {
     for (let cafe of cafes) {
         htmlTemplate += /*html*/ `
         <section class="page" id="${cafe.id}">
+        <div class="bg-holder" style="background-image: url('${cafe.img}')"></div>
             <h2>${cafe.name}</h2>
+            <img class src="img/dollar-signs.png">
             <p>${cafe.hours}</p>
     <p>${cafe.phone}</p>
     <p>${cafe.adress}</p>
@@ -29,7 +31,7 @@ function appendCafes(cafes) {
     <p>${cafe.option1}</p>
 <p>${cafe.option2}</p>
 <p>${cafe.option3}</p>
-<h3>Se resten af vores menu<a><p>her</p></a></h3>
+<h3>Se resten af vores menu<p><a href="${cafe.link}">her</h3>
     
     </section>
         `;

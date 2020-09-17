@@ -4,7 +4,7 @@
 let _restaurant = [];
 
 // Fetches JSON data from the JSON file categories.json
-fetch('json/restaurants.json')
+fetch('json/cafe.json')
     .then(function (response) {
         return response.json();
     })
@@ -18,10 +18,14 @@ fetch('json/restaurants.json')
 function appendRestaurants(restaurants) {
     let htmlTemplate = "";
     for (let restaurant of restaurants) {
+        console.log(restaurant);
         htmlTemplate += /*html*/ `
         <article>
-        <a href = "#cafe-x"> <img src = "${restaurant.img}"> 
+        <a href="#${restaurant.id}"> <img src="${restaurant.img}">
+        <div>
         <h3>${restaurant.name}</h3></a>
+<img class src="img/heart.png">
+    </div>
         </article>
         `;
 

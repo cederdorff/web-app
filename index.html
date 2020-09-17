@@ -26,24 +26,29 @@
     <!-- Icon attribute Icons made by <a href="https://www.flaticon.com/authors/gregor-cresnar" title="Gregor Cresnar">Gregor Cresnar</a> from <a href="https://www.flaticon.com/" title="Flaticon"> www.flaticon.com</a> -->
 
     <nav class="tabbar">
-        <a href="#favoritter"><img src="img/black-heart.png" alt=""></a>
-        <a href="#home"><img src="img/black-house.png" alt=""></a>
-        <a href="#map"><img src="img/black-map.png" alt=""></a>
+        <a href="#favoritter" onclick="changeImg1()" value="Change"><img src="img/black-heart.png" alt=""
+                id="heartImage"></a>
+        <a href="#home" onclick="changeImg2()" value="Change"><img src="img/black-house.png" alt="" id="houseImage"></a>
+        <a href="#map" onclick="changeImg3()" value="Change"><img src="img/black-map.png" alt="" id="mapImage"></a>
     </nav>
 
 
-    <!--Splashscreen-->
+    <!--Splashscreen
     <div class="splash">
         <img class=fade-in src="img/logo.png">
-    </div>
+    </div>-->
 
     <!-- Pages -->
     <!-- FAVERITE PAGE-->
     <section id="favoritter" class="page">
         <header class="topbar">
             <h2>Mine favoritter</h2>
-
         </header>
+
+
+
+
+
 
     </section>
 
@@ -110,11 +115,8 @@
 
     <!-- MAP PAGE -->
     <section id="map" class="page">
-        <!--The div element for the map -->
-        <div id="map"></div>
 
     </section>
-
 
     <!-- SPA functionality  -->
     <script src="js/spa.js"></script>
@@ -136,8 +138,8 @@
         * The key parameter will contain your own API key (which is not needed for this tutorial)
         * The callback parameter executes the initMap() function
         -->
-    <script defer
-        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCFb2gnudHLurTfiA_w3FiXBBos9gGoVBM&callback=initMap">
+
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCFb2gnudHLurTfiA_w3FiXBBos9gGoVBM&callback=myMap">
     </script>
 
 
