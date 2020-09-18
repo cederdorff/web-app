@@ -14,57 +14,132 @@
 
 .bg-holder {
     width: 100%;
-    height: 100vh;
+    height: 100%;
 }
 
-/* .parent { 
-display: grid; 
-grid-template-columns: repeat(3, 1fr); 
-grid-template-rows: repeat(2, 1fr); 
-grid-column-gap: 0px;
-grid-row-gap: 0px; 
-} */
+#cafe>section {
+    background-color: pink;
+}
+
 
 /* -------- COLLAPSIBLES STYLING ------ */
-
-.collapsible {
-    background-color: white;
-    color: #353535;
-    cursor: pointer;
-    padding: 16px 16px 16px 16px;
-    width: 100%;
-    border: none;
-    text-align: left;
-    outline: none;
-    font-size: 14px;
-    text-transform: uppercase;
-    font-family: 'miller-banner', serif;
-    font-weight: 600;
+html,
+body {
+  margin: 0;
+  width: 100%;
 }
+
+.c-container {
+  width: 100%;
+  max-width: 20rem;
+
+  margin: 3rem auto;
+}
+
+.accordion {
+  background-color: #333;
+  color: #eee;
+  cursor: pointer;
+  padding: 1rem;
+  width: 100%;
+  border: 1px solid #222;
+  text-align: left;
+  outline: none;
+  font-size: 12px;
+  transition: all 0.4s ease-out;
+  box-shadow: 0px 0px 34px -8px rgba(0, 0, 0, 0.75);
+}
+
+.accordion:first-child {
+  border-radius: 1rem 1rem 0 0;
+}
+
+.accordion:nth-last-child(2) {
+  border-radius: 0 0 1rem 1rem;
+}
+
+.accordion:nth-last-child(2) {
+  border-radius: 0 0 1rem 1rem;
+}
+
+
 
 .active,
-.collapsible:hover {
-    color: var(--text-color-light);
+.accordion:hover {
+  background-color: #426ef0;
 }
 
-.collapsible:after {
-    content: '\002B';
-    color: black;
-    font-weight: bold;
-    float: right;
-    margin-left: 5px;
+.accordion:after {
+  content: "\002B";
+  color: #eee;
+  font-weight: bold;
+  float: right;
+  margin-left: 0.5rem;
 }
 
 .active:after {
-    content: "\2212";
+  content: "\2212";
 }
 
-.content {
-    padding: 0 18px;
-    max-height: 0;
-    overflow: hidden;
-    transition: max-height 0.2s ease-out;
-    display: block;
-    line-height: 25px;
-    font-size: 13px;
+.accordion-content {
+  padding: 0 1rem;
+  background-color: #222;
+  color: #aaa;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+}
+
+
+/* -------- STYLING OF CAFE PAGE ------ */
+
+
+.bg-holder {
+background-attachment: fixed;
+background-size: cover;
+height: 300px;
+}
+
+.xontent {
+    height: 22vh;
+  border-top-left-radius: 50px;
+  border-top-right-radius: 50px;
+}
+
+.top-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+.xontent-container
+{
+  padding: 30px;
+}
+
+.price-save img {
+  padding-left: 10px;
+}
+
+#icon-text {
+  display: flex;
+   padding-bottom: 20px;
+   align-items: flex-end;
+   align-content: flex-end;
+}
+
+#icon-text p {
+    margin: 0;
+    font-weight: 300;
+    font-size: 14px;
+}
+
+.info img {
+  padding-right: 10px;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  float: left;
 }

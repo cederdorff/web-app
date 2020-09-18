@@ -18,13 +18,16 @@ html {
   text-align: center;
   width: 100%;
   font-weight: 500;
+  background-color: #EAEAE0;
 
 }
 
-body {
-  background-color: #F5F6F8;
+/* ---------- Home styling ---------- */
+
+body{
   margin: 0;
 }
+
 
 h1 {
   font-family: 'Nunito', sans-serif;
@@ -32,6 +35,14 @@ h1 {
   font-weight: 900;
   letter-spacing: 1px;
 }
+
+h2 {
+  font-family: 'Nunito', sans-serif;
+  font-size: 24px;
+  font-weight: 800;
+  letter-spacing: 1px;
+}
+
 
 /* ---------- Tabbar styling ---------- */
 .tabbar {
@@ -52,13 +63,12 @@ h1 {
 
 /* Change the color of links on hover */
 .tabbar a:hover {
-  background-color: var(--light-grey);
+
   color: var(--text-color-dark);
 }
 
 /* Add a color to the active/current link */
 .tabbar a.active {
-  background-color: var(--light-green);
   color: var(--text-color-light);
 }
 

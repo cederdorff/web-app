@@ -1,43 +1,89 @@
-[{
+[
+    {
         "name": "Sandwich",
         "img": "img/anettessandwich.png",
-        "categories":[]
-
+        "restaurant": [
+            "anettessandwich",
+            "cafe glad",
+            "juice stop"
+        ]
     },
     {
         "name": "Pizza",
-        "img": "img/grappa.png"
+        "img": "img/grappa.png",
+        "restaurant": [
+            "Kallos",
+            "Byens Burger",
+            "Propria "
+        ]
     },
     {
         "name": "Pasta",
-        "img": "img/piccolina.png"
+        "img": "img/piccolina.png",
+        "restaurant": [
+            "Delicatteze pasta fresca",
+            "Restaurant Grappa",
+            "Piccolina"
+        ]
     },
     {
         "name": "Sushi",
-        "img": "img/karma.png"
+        "img": "img/karma.png",
+        "restaurant": [
+            "A+ Siam Sushi ",
+            "Saichi",
+            "Karma Sushi"
+        ]
     },
     {
         "name": "Mexicansk",
-        "img": "img/vaca.png"
+        "img": "img/vaca.png",
+        "restaurant": [
+            "vaca"
+        ]
     },
     {
         "name": "Thai",
-        "img": "img/kowloon.png"
+        "img": "img/kowloon.png",
+        "restaurant": [
+            "kowloon",
+            "TukTuk Aarhus Streetfood"
+        ]
     },
     {
         "name": "Dessert",
-        "img": "img/socialfoodies.png"
+        "img": "img/socialfoodies.png",
+        "restaurant": [
+            "For Emma",
+            "Café Drudenfuss",
+            "Social foodies"
+        ]
     },
     {
         "name": "Burger",
-        "img": "img/burgershack.png"
+        "img": "img/burgershack.png",
+        "restaurant": [
+            "Byens Burger",
+            "Café faust",
+            "Burger Shack"
+        ]
     },
     {
         "name": "Vegetar",
-        "img": "img/plantfood.png"
+        "img": "img/plantfood.png",
+        "restaurant": [
+            "Melone",
+            "Plant food",
+            "Piccolina"
+        ]
     },
     {
         "name": "Morgenmad",
-        "img": "img/cafefrida.png"
+        "img": "img/cafefrida.png",
+        "restaurant": [
+            "Fika",
+            "café glad",
+            "café frida"
+        ]
     }
 ]

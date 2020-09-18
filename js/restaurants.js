@@ -21,9 +21,15 @@ function appendRestaurants(restaurants) {
         console.log(restaurant);
         htmlTemplate += /*html*/ `
         <article>
-        <a href="#${restaurant.id}"> <img src="${restaurant.img}">
-        <h3> ${restaurant.name}</h3></a><img class="hjerte" src="img/heart.png">
+            <div class="rest-skyg">
+        <a href="#${restaurant.id}"> <img class="resti-img" src="${restaurant.img}">
+        <div class="name-heart">
+        <h3>${restaurant.name}</h3></a><img id="hjerte" src="img/heart.png">
+    </div>
+    </div>
+
         </article>
+
         `;
 
     }
