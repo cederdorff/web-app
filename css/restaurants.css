@@ -23,6 +23,7 @@
     padding: 10px;
     margin-bottom: 10px;
     margin-top: -130px;
+    s
 }
 
 #restaurants>article {
@@ -38,7 +39,16 @@
     border-top-right-radius: 20px;
 }
 
-#restaurants> article .hjerte{
+#restaurants img.hjerte {
+    margin: -50px 0px 0px 200px;
+}
+
+#restaurants>article a {
+    text-decoration: none;
+    color: black;
+}
+
+#restaurants>article .hjerte {
     width: 30px;
     border-radius: 0px;
 }
@@ -54,6 +64,12 @@
 #restauranter h1 {
     text-align: left;
     margin-left: 6%;
+}
+
+#restauranter h2 {
+    text-align: left;
+    margin: -8px 0px 0px 100px;
+
 }
 
 #restauranter h3 {

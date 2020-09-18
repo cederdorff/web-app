@@ -59,6 +59,7 @@
 
 #kategorier p {
     margin-left: 6%;
+    font-size: 20px;
 }
 
 #kategorier h1 {
@@ -70,3 +71,4 @@
     margin-top: -90px;
     color: white;
 }
+

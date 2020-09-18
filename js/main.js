@@ -35,3 +35,4 @@ function changeImg3() {
         image.src = "img/black-map.png";
     }
 }
+

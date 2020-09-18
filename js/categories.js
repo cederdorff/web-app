@@ -11,6 +11,7 @@ fetch('json/categories.json')
     .then(function (jsonData) {
         console.log(jsonData);
         _category = jsonData;
+        console.log(_category);
         appendCategories(jsonData)
     });
 
@@ -24,11 +25,10 @@ function appendCategories(categories) {
         <h3>${category.name}</h3></a>
         </article>
         `;
-
     }
-
     document.querySelector("#categories").innerHTML = htmlTemplate;
 }
+
 function filteredbykeyword(keyword) {
     let restaurants = [];
     for (let restaurant of _cafes) {
@@ -41,3 +41,17 @@ function filteredbykeyword(keyword) {
     appendRestaurants(restaurants);
     navigateTo("restauranter");
 }
+
+function search(value) {
+    let searchQuery = value.toLowerCase();
+    let filteredProducts = [];
+    for (let cat of _category) {
+        console.log(cat.name);
+        let name = cat.name.toLowerCase();
+        if (name.includes(searchQuery)) {
+                filteredProducts.push(cat);
+            }
+        }
+        console.log(filteredProducts);
+        appendCategories(filteredProducts);
+    }

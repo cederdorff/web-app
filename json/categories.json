@@ -1,6 +1,8 @@
 [{
         "name": "Sandwich",
-        "img": "img/anettessandwich.png"
+        "img": "img/anettessandwich.png",
+        "categories":[]
+
     },
     {
         "name": "Pizza",
