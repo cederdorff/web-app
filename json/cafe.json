@@ -14,6 +14,7 @@
         "review": "4",
         "link": "http://kowloon.dk/banegaardsgade/menukort.html",
         "img": "img/kowloon.png",
+        "imgcrop": "img/kowloon-kopi.png",
         "categories": [
             "thai"
         ]
@@ -33,6 +34,7 @@
         "review": "4",
         "link": "undefined",
         "img": "img/tuktuk.png",
+        "imgcrop": "img/tuktuk-kopi.png",
         "categories": [
             "thai"
         ]
@@ -52,6 +54,7 @@
         "review": "4",
         "link": "https://www.anettessandwich.dk/menu/",
         "img": "img/anettessandwich.png",
+        "imgcrop": "img/anettessandwich-kopi.png",
         "categories": [
             "sandwich"
         ]
@@ -71,6 +74,7 @@
         "review": "3",
         "link": "https://wwww.spisdigglad.dk/menu/",
         "img": "img/cafeglad.png",
+        "imgcrop": "img/cafeglad-kopi.png",
         "categories": [
             "sandwich",
             "morgenmad"
@@ -91,6 +95,7 @@
         "review": "5",
         "link": "http://juicestop.dk/menukort/",
         "img": "img/juicestop.png",
+        "imgcrop": "img/juicestop-kopi.png",
         "categories": [
             "sandwich"
         ]
@@ -110,6 +115,7 @@
         "review": "5",
         "link": "https://www.kallos.dk/menu",
         "img": "img/kallos.png",
+        "imgcrop": "img/kallos-kopi.png",
         "categories": [
             "pizza"
         ]
@@ -129,6 +135,7 @@
         "review": "5",
         "link": "https://www.pizzapropria.dk/ ",
         "img": "img/propria.png",
+        "imgcrop": "img/propria-kopi.png",
         "categories": [
             "pizza"
         ]
@@ -148,6 +155,7 @@
         "review": "5",
         "link": "https://www.byensburger.dk/menu.php",
         "img": "img/byensburger.png",
+        "imgcrop": "img/byensburger-kopi.png",
         "categories": [
             "pizza",
             "burger"
@@ -168,6 +176,7 @@
         "review": "5",
         "link": "none",
         "img": "img/delicatezze.png",
+        "imgcrop": "img/delicatezze-kopi.png",
         "categories": [
             "pasta"
         ]
@@ -187,6 +196,7 @@
         "review": "5",
         "link": "https://www.jakobsenco.dk/grappa/",
         "img": "img/grappa.png",
+        "imgcrop": "img/grappa-kopi.png",
         "categories": [
             "pasta"
         ]
@@ -206,6 +216,7 @@
         "review": "5",
         "link": "http://restaurant.aplussiamsushi.dk/restaurant/menu/",
         "img": "img/siam.png",
+        "imgcrop": "img/siam-kopi.png",
         "categories": [
             "sushi"
         ]
@@ -225,6 +236,7 @@
         "review": "5",
         "link": "https://saichi.dk/pdf-menu/",
         "img": "img/saichi.png",
+        "imgcrop": "img/saichi-kopi.png",
         "categories": [
             "sushi"
         ]
@@ -244,6 +256,7 @@
         "review": "5",
         "link": "https://karmasushi.dk/menu/",
         "img": "img/karma.png",
+        "imgcrop": "img/karma-kopi.png",
         "categories": [
             "sushi"
         ]
@@ -263,6 +276,7 @@
         "review": "5",
         "link": "https://vaca.dk/menu/",
         "img": "img/vaca.png",
+        "imgcrop": "img/vaca-kopi.png",
         "categories": [
             "mexi"
         ]
@@ -282,6 +296,7 @@
         "review": "5",
         "link": "https://cafefaust.dk/",
         "img": "img/faust.png",
+        "imgcrop": "img/faust-kopi.png",
         "categories": [
             "burger"
         ]
@@ -301,6 +316,7 @@
         "review": "5",
         "link": "https://cafefaust.dk/",
         "img": "img/burgershack.png",
+        "imgcrop": "img/burgershack-kopi.png",
         "categories": [
             "burger"
         ]
@@ -320,6 +336,7 @@
         "review": "5",
         "link": "https://foremma.dk/",
         "img": "img/foremma.png",
+        "imgcrop": "img/foremma-kopi.png",
         "categories": [
             "dessert"
         ]
@@ -339,6 +356,7 @@
         "review": "5",
         "link": "http://drudenfuss.dk/#menucard",
         "img": "img/drudenfuss.png",
+        "imgcrop": "img/drudenfuss-kopi.png",
         "categories": [
             "dessert"
         ]
@@ -358,6 +376,7 @@
         "review": "5",
         "link": "https://socialfoodies.dk/aarhus/",
         "img": "img/socialfoodies.png",
+        "imgcrop": "img/socialfoodies-kopi.png",
         "categories": [
             "dessert"
         ]
@@ -377,6 +396,7 @@
         "review": "5",
         "link": "hhttp://cafefika.dk/menu/",
         "img": "img/fika.png",
+        "imgcrop": "img/fika-kopi.png",
         "categories": [
             "morgenmad"
         ]
@@ -396,6 +416,7 @@
         "review": "5",
         "link": "https://cafefrida.dk/menu/",
         "img": "img/cafefrida.png",
+        "imgcrop": "img/cafefrida-kopi.png",
         "categories": [
             "morgenmad"
         ]
@@ -415,6 +436,7 @@
         "review": "5",
         "link": "https://melone.dk/#menu",
         "img": "img/melone.png",
+        "imgcrop": "img/melone-kopi.png",
         "categories": [
             "vegan"
         ]
@@ -434,6 +456,7 @@
         "review": "5",
         "link": "https://plant-food.dk/",
         "img": "img/plantfood.png",
+        "imgcrop": "img/plantfood-kopi.png",
         "categories": [
             "vegan"
         ]
@@ -453,6 +476,7 @@
         "review": "5",
         "link": "https://piccolina.dk/menu-2",
         "img": "img/piccolina.png",
+        "imgcrop": "img/piccolina-kopi.png",
         "categories": [
             "pasta",
             "vegan"

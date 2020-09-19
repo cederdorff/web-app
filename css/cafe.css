@@ -37,12 +37,12 @@ body {
 }
 
 .accordion {
-  background-color: #333;
+  background-color: #CBCBCB;
   color: #eee;
   cursor: pointer;
   padding: 1rem;
   width: 100%;
-  border: 1px solid #222;
+  border: 1px solid #FFF;
   text-align: left;
   outline: none;
   font-size: 12px;
@@ -55,21 +55,21 @@ body {
 }
 
 .accordion:nth-last-child(2) {
-  border-radius: 0 0 1rem 1rem;
+  border-radius: 0 0 15px 15px;
 }
 
 .accordion:nth-last-child(2) {
-  border-radius: 0 0 1rem 1rem;
+  border-radius: 0 0 15px 15px;
 }
 
 
 
-.active,
+.container .active,
 .accordion:hover {
   background-color: #426ef0;
 }
 
-.accordion:after {
+.c-container .accordion:after {
   content: "\002B";
   color: #eee;
   font-weight: bold;
@@ -77,13 +77,13 @@ body {
   margin-left: 0.5rem;
 }
 
-.active:after {
+.c-container .active:after {
   content: "\2212";
 }
 
 .accordion-content {
   padding: 0 1rem;
-  background-color: #222;
+  background-color: #F5F6F8;
   color: #aaa;
   max-height: 0;
   overflow: hidden;
