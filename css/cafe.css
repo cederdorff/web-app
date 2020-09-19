@@ -22,72 +22,62 @@
 }
 
 
-/* -------- COLLAPSIBLES STYLING ------ */
-html,
-body {
-  margin: 0;
-  width: 100%;
+/* -------- COLLAPSIBLES STYLING 
+------ */
+
+.fontent {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-.c-container {
-  width: 100%;
-  max-width: 20rem;
-
-  margin: 3rem auto;
+.fontent {
+    margin: 60px auto;
+    max-width: 320px;
 }
-
-.accordion {
-  background-color: #CBCBCB;
-  color: #eee;
-  cursor: pointer;
-  padding: 1rem;
-  width: 100%;
-  border: 1px solid #FFF;
-  text-align: left;
-  outline: none;
-  font-size: 12px;
-  transition: all 0.4s ease-out;
-  box-shadow: 0px 0px 34px -8px rgba(0, 0, 0, 0.75);
+.accordion__item {
+    background: #fffffe;
+    border-radius: 4px;
 }
-
-.accordion:first-child {
-  border-radius: 1rem 1rem 0 0;
+.accordion__item:not(:last-child) {
+    margin-bottom: 15px;
 }
-
-.accordion:nth-last-child(2) {
-  border-radius: 0 0 15px 15px;
+.accordion__header {
+    padding: 20px;
+    padding-right: 50px;
+    font-weight: 600;
+    font-size: 1.25rem;
+    color: #094067;
+    position: relative;
+    cursor: pointer;
 }
-
-.accordion:nth-last-child(2) {
-  border-radius: 0 0 15px 15px;
+.accordion__header::after {
+    content: '';
+    display: block;
+    width: 18px;
+    height: 18px;
+    position: absolute;
+    right: 20px;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+   background: url("https://cdn.statically.io/gist/koptyaisky/33f5da3d9e6b6cacdf5a353ad033c2ea/raw/c8468a17e0141ee82a2571deea1f76162abb47b6/arrow-down-blue.svg") no-repeat center;
+    background-size: contain;
+    transition: all .4s ease;
 }
-
-
-
-.container .active,
-.accordion:hover {
-  background-color: #426ef0;
+.accordion__body {
+    padding: 0 40px 20px 20px;
+    font-weight: 300;
+    font-size: 0.875rem;
+    color: #5f6c7b;
+    line-height: 1.5;
+    display: none;
 }
-
-.c-container .accordion:after {
-  content: "\002B";
-  color: #eee;
-  font-weight: bold;
-  float: right;
-  margin-left: 0.5rem;
+.open-accordion .accordion__body {
+    display: block;
 }
-
-.c-container .active:after {
-  content: "\2212";
-}
-
-.accordion-content {
-  padding: 0 1rem;
-  background-color: #F5F6F8;
-  color: #aaa;
-  max-height: 0;
-  overflow: hidden;
-  transition: max-height 0.2s ease-out;
+.open-accordion .accordion__header::after {
+    transform: rotate(-180deg);
 }
 
 

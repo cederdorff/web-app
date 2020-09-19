@@ -61,30 +61,30 @@ function appendCafes(cafes) {
         </div>
     </div>
 
-<div class="c-container">
-  <button class="accordion">${cafe.option1}</button>
-  <div class="accordion-content">
-      <p>
-    ${cafe.description1}
-    </p>
+  <div class="fontent">
+    <div class="accordion">
+      <div class="accordion__item open-accordion">
+        <div class="accordion__header">${cafe.option1}</div>
+        <div class="accordion__body">
+          <p>${cafe.description1}</p>
+        </div>
+      </div>
+      <div class="accordion__item">
+        <div class="accordion__header">${cafe.option2}</div>
+        <div class="accordion__body">
+          <p>${cafe.description2}</p>
+        </div>
+      </div>
+      <div class="accordion__item">
+        <div class="accordion__header">${cafe.option3}</div>
+        <div class="accordion__body">
+          <p>${cafe.description3}
+          </p>
+        </div>
+      </div>
+     
+    </div>
   </div>
-
-  <button class="accordion">${cafe.option2}</button>
-  <div class="accordion-content">
-   <p>
-    ${cafe.description1}
-    </p>
-  </div>
-
-
-
-  <button class="accordion">${cafe.option3}</button>
-  <div class="accordion-content">
-   <p>
-    ${cafe.description1}
-    </p>
-  </div>
-</div>
 
 
     
@@ -101,22 +101,18 @@ function appendCafes(cafes) {
 }
 
 // COLLAPSIBLES
-
 function init() {
-    let coll = document.getElementsByClassName("accordion");
-    let i;
-    for (i = 0; i < coll.length; i++) {
-        coll[i].addEventListener("click", function () {
-            this.classList.toggle("active");
-            let content = this.nextElementSibling;
-            if (content.style.maxHeight) {
-                content.style.maxHeight = null;
-            } else {
-                content.style.maxHeight = content.scrollHeight + "px";
-            }
+
+
+    $(document).ready(function () {
+        $('.accordion__header').click(function () {
+
+            $(".accordion__body").not($(this).next()).slideUp(400);
+            $(this).next().slideToggle(400);
+
+            $(".accordion__item").not($(this).closest(".accordion__item")).removeClass("open-accordion");
+            $(this).closest(".accordion__item").toggleClass("open-accordion");
         });
-    }
-
-}
-
+    });
+};
 
