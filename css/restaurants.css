@@ -3,7 +3,7 @@
 .res-topbar {
     width: 100%;
     background-color: #EAEAE0;
-    padding-bottom: 40%;
+    padding-bottom: 15%;
 }
 
 /* Styling af navigationspil */
@@ -21,9 +21,9 @@
     display: grid;
     grid-template-columns: 100%;
     padding: 10px;
-    margin-top: 30px;
-    background-color:#F5F6F8;
     padding-bottom: 20px;
+    margin-bottom: 20%;
+    margin-top: -130px;
 }
 
 #restaurants>article {
@@ -75,11 +75,6 @@
     color: black;
 }
 
-
-#restauranter {
-    margin-bottom: 20%;
-}
-
 #restauranter p {
     margin-left: 6%;
 }
@@ -95,9 +90,9 @@
 }
 
 #restauranter h3 {
-   font-family: 'Nunito', sans-serif;
-  font-size: 14px;
-  font-weight: 700;
-  letter-spacing: 1px;
-    text-align: left;
+font-family: 'Nunito', sans-serif;
+font-size: 14px;
+font-weight: 700;
+letter-spacing: 1px;
+text-align: left;
 }

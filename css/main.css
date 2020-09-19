@@ -18,14 +18,19 @@ html {
   text-align: center;
   width: 100%;
   font-weight: 500;
-  background-color: #EAEAE0;
-
 }
 
 /* ---------- Home styling ---------- */
 
+#home.page{
+  background-color: #EAEAE0;
+  padding-top: 200px;
+  padding-bottom: 250px;
+}
+
 body{
   margin: 0;
+  background-color: #F5F6F8;
 }
 
 
@@ -78,9 +83,6 @@ h2 {
 }
 
 /* ---------- Homepage styling ----------  sofia+maria */
-#home {
-  margin-top: 40%;
-}
 
 /* Searchfield  */
 
