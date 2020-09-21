@@ -64,7 +64,17 @@
     width: 20px;
     height: 19px;
     margin-top: 20px;
+    display: block;
 }
+
+#hjerte-filled {
+    width: 20px;
+    height: 19px;
+    margin-top: 20px;
+    display: none;
+}
+
+
 
 .name-heart {
     display: flex;

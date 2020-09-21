@@ -16,15 +16,15 @@ fetch('json/cafe.json')
   });
 
 
-
-
 // Appends JSON data to the DOM
 function appendCafes(cafes) {
   let htmlTemplate = "";
   for (let cafe of cafes) {
     htmlTemplate += /*html*/ `
         <section class="page" class="cafema" id="${cafe.id}">
-        <div class="bg-holder" style="background-image: url('${cafe.img}')"></div>
+        <div class="bg-holder" style="background-image: url('${cafe.img}')">
+          <a href="#restauranter"><img src="img/arrow.png" alt="" id="arrow-cafe"></a> <br><br><br>
+        </div>
 
     <div id="xontent">
         <div class="xontent-container">
@@ -55,7 +55,11 @@ function appendCafes(cafes) {
                 <div id="icon-text">
                     <img src="img/address.png" width="20px">
                     <p>${cafe.adress}</p>
-                </div>
+  </div>
+               <div id="icon-text">
+                    <img src="img/stars.png" width="110px">
+  </div> 
+
             </div>
 
         </div>
@@ -88,8 +92,9 @@ function appendCafes(cafes) {
 
 
     
-    <h3>Se resten af vores menu<p><a href="${cafe.link}">her</a></h3>
-
+    <div class="menu-link">
+      <h3>Se resten af vores menu <a href="${cafe.link}">her</a></h3>
+  </div> 
     </section>
         `;
 

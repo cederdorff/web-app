@@ -11,8 +11,6 @@
 }
 
 
-
-
 /* -------- COLLAPSIBLES STYLING 
 ------ */
 
@@ -23,7 +21,9 @@
 }
 
 .fontent {
-  margin: 60px auto;
+  margin-left: 30px;
+  margin-right: 30px;
+  margin-bottom: 30px;
   max-width: 320px;
 }
 
@@ -97,8 +97,7 @@
   height: 100%;
   border-radius: 50px;
   background: transparent;
-  margin-bottom: 100px;
-
+  margin-bottom: 135px;
 }
 
 .top-container {
@@ -140,6 +139,14 @@
   float: left;
 }
 
-.cafema {
-  margin-bottom: 100px;
+.menu-link h3, a {
+  color: var(--text-color-light);
+  font-weight: 600;
 }
+
+#arrow-cafe {
+  width: 40px;
+    float: left;
+    margin: 15px 0px 0px 15px;
+}
+
