@@ -5,24 +5,24 @@ let _cafes = [];
 
 // Fetches JSON data from the JSON file categories.json
 fetch('json/cafe.json')
-    .then(function (response) {
-        return response.json();
-    })
-    .then(function (jsonData) {
-        console.log(jsonData);
-        _cafes = jsonData;
-        appendCafes(jsonData)
-        init();
-    });
+  .then(function (response) {
+    return response.json();
+  })
+  .then(function (jsonData) {
+    console.log(jsonData);
+    _cafes = jsonData;
+    appendCafes(jsonData)
+    init();
+  });
 
 
 
 
 // Appends JSON data to the DOM
 function appendCafes(cafes) {
-    let htmlTemplate = "";
-    for (let cafe of cafes) {
-        htmlTemplate += /*html*/ `
+  let htmlTemplate = "";
+  for (let cafe of cafes) {
+    htmlTemplate += /*html*/ `
         <section class="page" id="${cafe.id}">
         <div class="bg-holder" style="background-image: url('${cafe.img}')"></div>
 
@@ -93,26 +93,25 @@ function appendCafes(cafes) {
     </section>
         `;
 
-    }
-    console.log(htmlTemplate);
+  }
+  console.log(htmlTemplate);
 
-    document.querySelector("body").innerHTML += htmlTemplate;
-    pageChange();
+  document.querySelector("body").innerHTML += htmlTemplate;
+  pageChange();
 }
 
 // COLLAPSIBLES
 function init() {
 
 
-    $(document).ready(function () {
-        $('.accordion__header').click(function () {
+  $(document).ready(function () {
+    $('.accordion__header').click(function () {
 
-            $(".accordion__body").not($(this).next()).slideUp(400);
-            $(this).next().slideToggle(400);
+      $(".accordion__body").not($(this).next()).slideUp(400);
+      $(this).next().slideToggle(400);
 
-            $(".accordion__item").not($(this).closest(".accordion__item")).removeClass("open-accordion");
-            $(this).closest(".accordion__item").toggleClass("open-accordion");
-        });
+      $(".accordion__item").not($(this).closest(".accordion__item")).removeClass("open-accordion");
+      $(this).closest(".accordion__item").toggleClass("open-accordion");
     });
+  });
 };
-

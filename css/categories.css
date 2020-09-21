@@ -1,14 +1,14 @@
 /* Top bar */
 
 :root {
-  --green: rgb(38, 76, 89);
-  --tabbar: #FFF;
-  --light-green: rgb(172, 198, 201);
-  --light-grey: #f1f1f4;
-  --text-color-light: #FF785B;
-  --text-color-dark: #454545;
-  --border: #A0A0A0;
-  --sig-color: #EAEAEA0;
+    --green: rgb(38, 76, 89);
+    --tabbar: #FFF;
+    --light-green: rgb(172, 198, 201);
+    --light-grey: #f1f1f4;
+    --text-color-light: #FF785B;
+    --text-color-dark: #454545;
+    --border: #A0A0A0;
+    --sig-color: #EAEAEA0;
 }
 
 .topbar {
@@ -46,44 +46,45 @@
     display: block;
     border: 0;
     background: #fff;
-    border-radius: 10px;
+    border-radius-top: 10px;
     font-size: 10px;
     font-family: houschka-rounded, sans-serif;
 }
 
- .search-icon { 
-    position: absolute; 
-    width: 15px; 
+.search-icon {
+    position: absolute;
+    width: 15px;
     padding-top: 10px;
     right: 50px;
-} 
+}
 
 
- .map-icon { 
-    position: absolute; 
-    width: 15px; 
+.map-icon {
+    position: absolute;
+    width: 15px;
     padding-top: 14px;
-  right: 55px;
-  opacity: 0.8;
-} 
-          
-        
-          
-    
+    right: 55px;
+    opacity: 0.8;
+}
+
+
+
+
 
 #kategorier {
-   background-color:  #EAEAE0;
+    background-color: #EAEAE0;
 }
+
 
 
 #categories {
     display: grid;
-    background-color:#F5F6F8;
+    background-color: #F5F6F8;
     grid-template-columns: 50% 50%;
     padding: 10px;
     grid-row-gap: 2em;
     padding-bottom: 100px;
-   
+
 }
 
 section #kategori-container {
@@ -92,7 +93,7 @@ section #kategori-container {
     border-radius: 50px;
     padding-left: 20px;
     padding-right: 20px;
-     padding-top: 30px;
+    padding-top: 30px;
 }
 
 
@@ -106,6 +107,7 @@ section #kategori-container {
     width: 100%;
     margin-bottom: 30px;
     border-radius: 10px;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
 }
 
 #categories>article a {
@@ -118,7 +120,7 @@ section #kategori-container {
     font-size: 20px;
 }
 
-#kategorier h1{
+#kategorier h1 {
     text-align: left;
     margin-left: 6%;
     font-weight: 800;
@@ -141,4 +143,3 @@ section #kategori-container {
     text-transform: uppercase;
     font-family: 'Nunito', sans-serif;
 }
-

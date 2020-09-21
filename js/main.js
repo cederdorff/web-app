@@ -9,6 +9,8 @@ document.addEventListener('DOMContentLoaded', (e) => {
 });*/
 
 
+//Menubar - icon ændrer farve
+
 function changeImg1() {
     var image = document.getElementById('heartImage');
     if (image.src.match("img/black-heart.png")) {
@@ -35,4 +37,3 @@ function changeImg3() {
         image.src = "img/black-map.png";
     }
 }
-

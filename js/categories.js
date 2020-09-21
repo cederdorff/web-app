@@ -47,16 +47,10 @@ function search(value) {
     let filteredProducts = [];
     for (let cat of _category) {
         let name = cat.name.toLowerCase();
-        console.log(cat.restaurant[0]);
-        for (let rest of cat.restaurant) {
-            console.log(rest);
-            let restaurant = rest.toLowerCase();
 
-            if (name.includes(searchQuery) || restaurant.includes(searchQuery)) {
-                filteredProducts.push(cat);
-            }
+        if (name.includes(searchQuery)) {
+            filteredProducts.push(cat);
         }
-
     }
     console.log(filteredProducts);
     appendCategories(filteredProducts);
