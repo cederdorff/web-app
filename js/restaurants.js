@@ -21,18 +21,13 @@ function appendRestaurants(restaurants) {
         console.log(restaurant);
         htmlTemplate += /*html*/ `
         <article>
-            <div class="rest-skyg">
         <a href="#${restaurant.id}"> <img class="resti-img" src="${restaurant.imgcrop}">
         <div class="name-heart">
-        <h3>${restaurant.name}</h3></a><img id="hjerte" src="img/heart.png">
-    </div>
-    </div>
-
+        <h3>${restaurant.name}</h3></a><img id="hjerte" onclick="addtofav('${restaurant.id}')" src="img/heart.png">
         </article>
+        `
+    };
 
-        `;
-
-    }
 
     document.querySelector("#restaurants").innerHTML = htmlTemplate;
 }

@@ -29,10 +29,17 @@
     <!-- Icon attribute Icons made by <a href="https://www.flaticon.com/authors/gregor-cresnar" title="Gregor Cresnar">Gregor Cresnar</a> from <a href="https://www.flaticon.com/" title="Flaticon"> www.flaticon.com</a> -->
 
     <nav class="tabbar">
-        <a href="#favoritter" onclick="changeImg1()" value="Change"><img src="img/black-heart.png" alt=""
-                id="heartImage"></a>
-        <a href="#home" onclick="changeImg2()" value="Change"><img src="img/black-house.png" alt="" id="houseImage"></a>
-        <a href="#map" onclick="changeImg3()" value="Change"><img src="img/black-map.png" alt="" id="mapImage"></a>
+        <a href="#favoritter">
+            <img src="img/black-heart.png" alt="" class="inactive-icon">
+            <img src="img/heart.png" alt="" class="active-icon"></a>
+
+        <a href="#home">
+            <img src="img/black-house.png" alt="" class="inactive-icon">
+            <img src="img/house.png" alt="" class="active-icon"></a>
+
+        <a href="#map">
+            <img src="img/black-map.png" alt="" class="inactive-icon">
+            <img src="img/map.png" alt="" class="active-icon"></a>
     </nav>
 
 
@@ -115,7 +122,42 @@
 
 
     <!-- CAFE PAGE -->
-    <section id="cafe" class="page">
+    <!-- <section id="cafe" class="page">
+
+    </section> -->
+
+
+    <!-- MAP PAGE -->
+    <section id="map" class="page">
+
+
+    </section>
+
+
+    <!-- MAP PAGE -->
+    <section id="map" class="page">
+
+
+    </section>
+
+
+    <!-- MAP PAGE -->
+    <section id="map" class="page">
+
+
+    </section>
+
+
+    <!-- MAP PAGE -->
+    <section id="map" class="page">
+
+
+    </section>
+
+
+    <!-- MAP PAGE -->
+    <section id="map" class="page">
+
 
     </section>
 
@@ -141,17 +183,28 @@
 
     <!-- Cafe JS file -->
     <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js'></script>
+    <!-- MAP PAGE -->
+    <section id="map" class="page">
+
+
+    </section>
+
+
+    <!-- SPA functionality  -->
+    <script src="js/spa.js"></script>
+
+    <!-- Main JS file -->
+    <script src="js/main.js"></script>
+
+    <!-- Categories JS file -->
+    <script src="./js/categories.js"></script>
+
+    <!-- Restaurants JS file -->
+    <script src="js/restaurants.js"></script>
+
+    <!-- Cafe JS file -->
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js'></script>
     <script src="js/cafe.js"></script>
-
-    <!--Load the API from the specified URL
-        * The async attribute allows the browser to render the page while the API loads
-        * The key parameter will contain your own API key (which is not needed for this tutorial)
-        * The callback parameter executes the initMap() function
-        -->
-
-    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCFb2gnudHLurTfiA_w3FiXBBos9gGoVBM&callback=myMap">
-    </script>
-
 
 </body>
 

@@ -89,6 +89,22 @@ h3 {
   width: 30px;
 }
 
+.inactive-icon {
+  display: block;
+}
+
+.active-icon {
+  display: none;
+}
+
+.active .inactive-icon {
+  display: none;
+}
+
+.active .active-icon {
+  display: block;
+}
+
 /* ---------- Homepage styling ----------  sofia+maria */
 
 /* Searchfield  */

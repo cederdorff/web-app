@@ -23,10 +23,10 @@ function appendCafes(cafes) {
   let htmlTemplate = "";
   for (let cafe of cafes) {
     htmlTemplate += /*html*/ `
-        <section class="page" id="${cafe.id}">
+        <section class="page" class="cafema" id="${cafe.id}">
         <div class="bg-holder" style="background-image: url('${cafe.img}')"></div>
 
-    <div class="xontent">
+    <div id="xontent">
         <div class="xontent-container">
             <div class="top-container">
                 <div class="name">
