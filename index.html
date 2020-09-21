@@ -57,10 +57,14 @@
     <section id="home" class="page">
 
         <h1>Hvor befinder du dig?</h1>
-        <input id="by-soeg" type="search" placeholder="Søg efter sted.." onkeyup="search(this.value)">
+        <div class="input-icons">
+            <img src="img/map-pin.png" class="map-icon">
+            <input id="by-soeg" type="search" placeholder="Søg efter sted.." onkeyup="search(this.value)">
+
+        </div>
         <div class="button-container">
             <button class="button-button">København</button>
-            <button class="button-button"> <a href="#kategorier">Århus</a></button>
+            <button class="button-button"> <a href="#kategorier">Aarhus</a></button>
             <button class="button-button">Aalborg</button> <br>
             <button class="button-button">Odense</button>
             <button class="button-button">Esbjerg</button>
@@ -73,16 +77,19 @@
 
         <header class="topbar">
 
-            <a href="#home"><img src="img/arrow.png" alt=""></a> <br><br><br>
+            <a href="#home"><img src="img/arrow.png" alt="" class="arrow"></a> <br><br><br>
 
             <h2>Hvad søger du?</h2>
+            <div class="input-icons">
+                <img src="img/search.png" class="search-icon">
+                <input id="kate-soeg" type="search" placeholder="Skriv søgeord her..." onkeyup="search(this.value)">
 
-            <input id="kate-soeg" type="search" placeholder="Skriv søgeord her..." onkeyup="search(this.value)">
+            </div>
 
         </header>
 
 
-        <section id="hej">
+        <section id="kategori-container">
             <h1>KATEGORIER <span>AARHUS</span></h1>
             <section id="categories" class="catogories-grid-container">
             </section>

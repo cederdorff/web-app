@@ -61,7 +61,6 @@
     margin-bottom: 1em;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
- 
 }
 
 /* Styling af hjerte og navn */
@@ -83,6 +82,7 @@
     margin-top: -22px;
     border-bottom-left-radius: 20px;
     border-bottom-right-radius: 20px;
+    padding-bottom: 20px;
 }
 
 

@@ -14,13 +14,13 @@
 .topbar {
     /* width: 100%; */
     background-color: #EAEAE0;
-    padding-bottom: 3%;
     padding-left: 40px;
     padding-right: 40px;
+    padding-bottom: 30px;
 }
 
 /* Styling af navigationspil */
-.topbar img {
+.arrow {
     width: 30px;
     float: left;
     margin: 15px 0px 0px -22px;
@@ -29,8 +29,10 @@
 .topbar h2 {
     text-align: left;
     font-weight: 800;
-    font-size: 12px;
+    font-size: 13px;
     margin-left: 2px;
+    margin-bottom: 10px;
+    margin-top: 20px;
 }
 
 #kate-soeg {
@@ -40,12 +42,37 @@
     max-width: 350px;
     padding: 12px 10px;
     box-sizing: border-box;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
     display: block;
     border: 0;
     background: #fff;
     border-radius: 10px;
     font-size: 10px;
     font-family: houschka-rounded, sans-serif;
+}
+
+ .search-icon { 
+    position: absolute; 
+    width: 15px; 
+    padding-top: 10px;
+    right: 50px;
+} 
+
+
+ .map-icon { 
+    position: absolute; 
+    width: 15px; 
+    padding-top: 14px;
+  right: 55px;
+  opacity: 0.8;
+} 
+          
+        
+          
+    
+
+#kategorier {
+   background-color:  #EAEAE0;
 }
 
 
@@ -56,14 +83,16 @@
     padding: 10px;
     grid-row-gap: 2em;
     padding-bottom: 100px;
+   
 }
 
-section #hej {
+section #kategori-container {
     background-color: #F5F6F8;
     padding-top: 5px;
     border-radius: 50px;
-    margin-left: 20px;
-     margin-right: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+     padding-top: 30px;
 }
 
 
@@ -75,7 +104,7 @@ section #hej {
 #categories>article img {
     max-width: 300px;
     width: 100%;
-    margin-bottom: 1em;
+    margin-bottom: 30px;
     border-radius: 10px;
 }
 
@@ -94,7 +123,7 @@ section #hej {
     margin-left: 6%;
     font-weight: 800;
     font-size: 18px;
-    margin-bottom: 0;
+    margin-bottom: 10px;
 }
 
 #kategorier h1 span {
@@ -104,7 +133,12 @@ section #hej {
 }
 
 #kategorier h3 {
-    margin-top: -80px;
+    margin-top: -85px;
     color: white;
+    font-weight: 800;
+    font-size: 16px;
+    letter-spacing: .5px;
+    text-transform: uppercase;
+    font-family: 'Nunito', sans-serif;
 }
 

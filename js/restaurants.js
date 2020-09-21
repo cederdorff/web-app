@@ -22,7 +22,7 @@ function appendRestaurants(restaurants) {
         htmlTemplate += /*html*/ `
         <article>
             <div class="rest-skyg">
-        <a href="#${restaurant.id}"> <img class="resti-img" src="${restaurant.imgcrop}">
+        <a href="#${restaurant.id}"> <img class="resti-img" src="${restaurant.img}">
         <div class="name-heart">
         <h3>${restaurant.name}</h3></a><img id="hjerte" src="img/heart.png">
     </div>
